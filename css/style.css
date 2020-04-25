@@ -1,0 +1,463 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#595656;
+	font:Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+img{
+	max-width:100%;
+	height:auto;
+	
+}
+
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+.button1{
+	height:40px;
+	background:#000000;
+	border:0;
+	padding:0px 20px;
+	color:#ffffff;
+}
+
+/* Header **/
+header{
+	background:#262626;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:3px solid #000000;;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:16px;
+}
+header .actived{
+	color:#cccccc;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px;
+}
+header #naslov{
+	float:left;
+	
+}
+header #naslov h1{
+	margin:0;
+	font-size:35px;	
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+
+header a:hover{
+	color:#cccccc;
+}
+
+/* Sadrzaj1 */
+#sadrzaj1{
+	min-height:400px;
+	background:url('../img/stadion.jpg') no-repeat 0 ;
+	background-size: 100% 100%;
+	text-align:center;
+	color:#ffffff;
+}
+
+#sadrzaj1 h2{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+	color:#000;
+}
+
+#sadrzaj1 p{
+	font-size:20px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:0 150px;
+}
+
+/* YouTube */
+#YouTube{
+	padding:15px;
+	color:#ffffff;
+	background:#262626
+}
+
+#YouTube h2{
+	float:left;
+	margin-top:15px;
+}
+
+#YouTube form {
+	float:right;
+	margin-top:15px;
+}
+
+#YouTube input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+/* News*/
+#news{
+	border-bottom:5px solid #000000;
+	border-top:5px solid #000000;
+	background:#595656;
+}
+#news h2{
+	text-align:center;
+	font-size:40px;
+	color:#000;
+}
+
+
+/* Boxes */
+#boxes{
+	margin-top:20px;
+	background:#595656;
+}
+
+#boxes .box{
+	float:left;
+	text-align: center;
+	width:30%;
+	padding:10px;
+	
+}
+
+#boxes .box img{
+	width:300px;
+}
+#boxes .box h3{
+	font-size:28px;
+}
+#boxes .box p{
+	font-size:20px;
+}
+/* Footer */
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background:#262626;
+  text-align: center;
+  font-size:20px;
+  border-top:5px solid #000000;
+}
+footer p a{
+	color:#fff;
+}
+footer p a:hover{
+	color:#cccccc;
+}
+/* Author */
+#mojaslika{
+	float:left;
+	padding:15px;
+	
+}
+#mojaslika img{
+	width:400px;
+	border-radius:20px;
+}
+#mojtext{
+	padding:30px 20px;
+	width:50%;
+	float:left;
+	text-align:left;
+}
+
+#mojtext h3{
+	font-size:30px;
+	color:#000;
+	text-align:justify;
+}
+#mojtext p{
+	font-size:30px;
+	
+}
+#mojtext .contactme {
+	font-size:40px;
+	padding:10px;
+	
+}
+#mojtext #textuvucen{
+	padding-left:10px;
+}
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+/* Contact Form */
+#formacontact{
+	width:40%;
+	margin:0 auto;
+}
+#formacontact input[type="email"], #formacontact input[type="text"]{
+	padding:5px 0px;
+}
+#formacontact input[type="email"], #formacontact input[type="text"], #formacontact textarea{
+	border:3px solid black;
+	background-color:#fff;
+	width:100%;
+}
+
+#formacontact form{
+	
+	text-align:center;
+	margin-bottom:15px;
+	
+}
+#formacontact input[type="submit"]{
+	width:100%;
+}
+#formacontact h2{
+	text-align:center;
+}
+/* Players */
+.igrac{
+	width:32%;
+	float:left;
+	padding:5px;
+}
+.slikaigraca, .infoigraca{
+	width:70%;
+	margin:0px auto;	
+}
+.slikaigraca img{
+	width:100%;
+	border-radius:15px;
+}
+.infoigraca{
+	padding:5px;
+	font-size:20px;
+	font-weight: bold;
+}
+.infoigraca table td {
+	padding:0px 19px;
+}
+/* History */
+
+#top img{
+	width:100%;
+}	
+.mid1{
+	width:100%;
+	margin-top:10px;
+	float:left;
+	border-top:3px solid #000;
+}
+.slikah{
+	float:left;
+	padding:10px;
+
+}
+.slikah img{
+	border-radius:5px 25px 5px 25px;
+	
+}
+.texth p{
+	font-size:20px;
+	text-align:center;
+	padding:50px 20px 20px 20px;
+	width:50%;
+	float:left;
+	color:#fff;
+}
+
+/* Media Querys */
+
+@media screen and (max-width: 1200px){
+
+/* Sadrzaj1 */
+#sadrzaj1 p{
+	font-size:15px;
+	font-weight:bold;
+	text-align:right;
+	
+}
+#sadrzaj1{
+	background:url('../img/stationopacity.jpg') no-repeat 0 ;
+	background-size: 100% 100%;
+}
+.texth{
+	float:left;
+}
+/* History */
+.texth{
+	float:left;
+	width:50%;
+}
+.texth p{
+	font-size:17px;
+	width:100%;
+}
+.slikah {
+	width:40%;
+}
+.slikah img {
+	width:100%;
+	padding-top:30px;
+}
+/* Author */
+
+#mojaslika img{
+	width:270px;
+}
+#mojtext h3, #mojtext p{
+	font-size:25px;
+}
+#mojtext .contactme {
+	font-size:30px;
+	padding:10px;}
+	
+}
+
+@media screen and (max-width: 970px){
+	/* Sadrzaj1 */
+header nav{
+	float:none;
+
+}
+header nav{
+	margin:0 auto;
+}
+
+header #naslov{
+	float:none;
+}
+header #naslov h1{
+	text-align:center;
+}
+#sadrzaj1 p,#sadrzaj1 h2{
+	display:none;
+}
+/* YouTube */
+#YouTube h2, #YouTube form{
+	float:none;
+}
+#YouTube h2{
+	text-align:center;
+}
+#YouTube form{
+	text-align:center;
+}
+/* Boxes */
+#boxes .box{
+	width:46%;
+}
+#boxes .box:last-child{
+	margin:0 auto;
+	width:100%;
+}
+#boxes .box h3{
+	font-size:25px;
+}
+#boxes .box p{
+	font-size:18px;
+}
+
+/* Players */
+.igrac{
+	width:48%;
+}
+/* History */
+.texth p{
+	font-size:14px;
+}
+/* Author */
+#mojtext{
+	padding:10px;
+}
+#mojaslika img{
+	width:230px;
+}
+#mojtext .contactme{
+	font-size:20px;
+}
+#mojtext h3, #mojtext p{
+	font-size:23px;
+}
+}
+@media screen and (max-width: 720px){
+/* Sadrzaj1 */
+header{
+	padding-top:5px;
+}
+header nav ul li{
+	width:50%;
+	text-align:center;
+	float:right;
+	margin:3px;
+}
+header #naslov{
+	float:left;
+	padding-top:25px;
+}
+
+header a{
+	text-transform:none;
+}	
+/* Boxes */
+#boxes .box{
+	width:100%;
+}
+/* Players */
+.igrac{
+	width:70%;
+	margin:0 auto;
+	float:none;
+}
+/* History */
+.slikah, .texth{
+	width:100%;
+	float:none;
+}
+.slikah img{
+	width:100%;
+	border-radius:0px;
+}
+.texth p{
+	padding-top:0px;
+}
+/*Author */
+#contactforma{
+	display:none;
+}
+#mojaslika img{
+	width:180px;
+}
+#mojtext{
+	padding:5px;
+}
+/* Footer */
+footer{
+	font-size:17px;
+}
+}
